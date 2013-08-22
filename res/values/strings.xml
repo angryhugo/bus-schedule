@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Bus Schedule</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title1">Going home！</string>
+    <string name="title2">to Metro Line 2</string>
+    <string name="copyrights">designed by yhc ╮(￣▽￣)╭</string>
+</resources>

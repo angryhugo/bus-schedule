@@ -1,0 +1,74 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/nameText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="@string/title1"
+        android:textColor="#6699CC"
+        android:textSize="30sp"/>
+
+    <TimePicker
+        android:id="@+id/timePicker1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nameText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp" />
+    
+    <TextView 
+        android:id="@+id/infoText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/timePicker1"
+        android:layout_marginTop="5dp" 
+        android:layout_marginLeft="20dp"
+        android:text="已出发：XXX"
+        android:textColor="#EE6A50"
+        android:textSize="25sp"
+        android:focusable="true"
+        android:focusableInTouchMode="true" 
+        android:singleLine="true" 
+        android:ellipsize="marquee"
+        android:marqueeRepeatLimit="marquee_forever"/>
+    
+    <TextView 
+        android:id="@+id/startText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/infoText"
+        android:layout_marginTop="10dp" 
+        android:layout_marginLeft="50dp"
+        android:text="出发班次："
+        android:textColor="#FFA54F"
+        android:textSize="25sp"/>
+    
+    <TextView 
+        android:id="@+id/readyText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/startText"
+        android:layout_marginTop="10dp" 
+        android:layout_marginLeft="80dp"
+        android:text="下一班次："
+        android:textColor="#BCEE68"
+        android:textSize="25sp"/>
+    
+    <TextView 
+        android:id="@+id/lastText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="10dp"
+        android:text="@string/copyrights"
+        android:textColor="#D8BFD8"
+        android:textSize="20sp"/>
+
+</RelativeLayout>
